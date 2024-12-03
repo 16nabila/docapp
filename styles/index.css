@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://t3.ftcdn.net/jpg/05/57/40/36/360_F_557403683_FPM34OKiWuYwgGLCllSJQimedIZYB31T.jpg")
+      no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero .hero-content {
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero .btn:hover {
+  background-color: #45a049;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.why-choose-us {
+  background-color: #f4f4f4;
+  padding: 50px;
+  text-align: center;
+}
+
+.why-choose-us .reasons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.why-choose-us .reason-item {
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us .reason-item h3 {
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.doctors {
+  padding: 50px;
+  text-align: center;
+}
+
+.doctors .doctor-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.doctors .doctor-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 22%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.doctors .doctor-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.doctors .doctor-item h3 {
+  margin-bottom: 10px;
+}
+
+.testimonials {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonials .testimonial-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonials .testimonial-item {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonials .testimonial-item h4 {
+  color: #333;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4caf50;
+  padding: 15px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+footer.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+  width: 100%;
+  bottom: 0;
+}
+
+.doctors-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.doctors-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.doctor-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.doctor {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.doctor img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.doctor h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.doctor p {
+  color: #666;
+}
+
+.about-us {
+  padding: 50px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.about-us h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
